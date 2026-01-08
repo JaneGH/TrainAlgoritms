@@ -1,3 +1,5 @@
+package com.example.trainalgoritms
+
 //Most occurring and least occurring chars from given string
 fun checkChars(str:String){
     val hm = mutableMapOf<Char, Int>()
@@ -64,41 +66,8 @@ fun validMountainArray(arr: Array<Int>): Boolean {
         }
     }
 
-
-
     return true
 
 }
 
-//7) Program to check if string is Palindrome string or not.
-fun isPalindrome(s: String): Boolean {
-    val lowercaseString = s.lowercase()
-    var left = 0
-    var right = s.length-1
-    while (left<right){
-        while (left<right && !lowercaseString[left].isLetterOrDigit()){
-            left++
-        }
-        while (left<right && !s[right].isLetterOrDigit()){
-            right--
-        }
-        println(left)
-        println(right)
-        if (left<right){
-            if (lowercaseString[left]!=lowercaseString[right]) {
-                println(lowercaseString[left])
-                println(lowercaseString[right])
-                return false
-            }
-        }
-        left++
-        right--
 
-
-    }
-    return true
-}
-
-fun main(){
-    isPalindrome(".,")
-}

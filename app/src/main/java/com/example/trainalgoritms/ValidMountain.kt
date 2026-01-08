@@ -1,7 +1,7 @@
-
+package com.example.trainalgoritms
 fun main(){
-//    println(isMountainArray(arrayOf(1,2,3,2,1)))
-//    println(isMountainArray(arrayOf(1,1,3,2,1)))
+//    println(com.example.trainalgoritms.isMountainArray(arrayOf(1,2,3,2,1)))
+//    println(com.example.trainalgoritms.isMountainArray(arrayOf(1,1,3,2,1)))
     println(groupAnagrams(arrayOf("eat","tea","tan","ate","nat","bat")))
 }
 
