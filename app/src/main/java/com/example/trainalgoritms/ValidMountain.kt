@@ -27,7 +27,7 @@ fun isMountainArray(arr: Array<Int>): Boolean {
     while ((arr[i]<arr[i+1]) && (i<arr.size-1)){
         i++
     }
-    if ((i==0) || (i==arr.size)){
+    if (i==0){
         return  false
     }
 
