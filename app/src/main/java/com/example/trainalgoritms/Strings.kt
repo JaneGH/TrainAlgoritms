@@ -1,6 +1,6 @@
 package com.example.trainalgoritms
 
-//Check if a Given String is Palindrome or not without finding the reverse of the string.
+//1. Check if a Given String is Palindrome or not without finding the reverse of the string.
 fun isPalindrome(s: String): Boolean {
     val str = s.lowercase()
     var left = 0
