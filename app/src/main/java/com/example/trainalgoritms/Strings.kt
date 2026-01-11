@@ -60,7 +60,14 @@ fun removeDuplicate(s: String): String {
     return result.toString()
 }
 
+//???
 //5. Program to find longest common subsequence from list of strings.
+fun longestCommonSubsequence(strList: List<String>){
+    for (str in strList) {
+
+    }
+
+}
 
 //6. Print all the duplicate chars in the input string.
 fun printDuplicates(s: String) {
@@ -104,6 +111,13 @@ fun removeCharactersFromFirstString(str1:String, str2: String) : String {
 
 //???
 //9. Check if strings are rotations of each other or not
+fun ifRotations(str1: String, str2: String) : Boolean {
+    if ((str1+str1).contains(str2)){
+        return true
+    } else{
+        return false
+    }
+}
 
 //10 Print all permutations of a given string
 
@@ -133,3 +147,6 @@ fun reverseEachWord(s: String): String {
 fun findTheLongestWord(str: String){
 
 }
+
+// 14 Check whether two strings are anagram of each other.
+
