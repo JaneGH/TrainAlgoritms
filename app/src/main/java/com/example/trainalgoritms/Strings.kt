@@ -66,7 +66,6 @@ fun longestCommonSubsequence(strList: List<String>){
     for (str in strList) {
 
     }
-
 }
 
 //6. Print all the duplicate chars in the input string.
@@ -144,8 +143,13 @@ fun reverseEachWord(s: String): String {
 
 
 //12 Find the word with the longest length in the given sentence.
-fun findTheLongestWord(str: String){
-
+fun findTheLongestWord(str: String) : Int{
+    val arrayWord = str.split(" ")
+    var max = Int.MIN_VALUE
+    for (word in arrayWord){
+        max = Math.max(word.length, max)
+    }
+    return max
 }
 
 // 14 Check whether two strings are anagram of each other.

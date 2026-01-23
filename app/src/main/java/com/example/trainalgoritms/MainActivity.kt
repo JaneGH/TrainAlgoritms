@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.trainalgoritms.InterviewTasks.findIndexWhereLeftRightSumEq
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        println(isPalindrome("race a car"))
+        println("!!!"+ findIndexWhereLeftRightSumEq(arrayOf(1,2,3,3,0)))
     }
 
 }
